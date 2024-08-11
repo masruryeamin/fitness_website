@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    .display-none{
+        display: block;
+    }
+    .display-none-2{
+        display: none;
+    }
+    #font-1{
+        font-size: 20px;
+        
+    }
+    #font-2{
+        font-size: 40px;
+        
+    }
+    #font-p{
+        font-size: 16px;
+    }
+    #miami{
+        font-size: 55px;
+    }
+    header{
+        padding: 0 20px;   
+    }
+    body{
+        width: 100%;
+        margin: 0 auto;
+        background: rgb(0, 0, 0);
+    }
+    .banner-container{
+        flex-direction: column;
+        /* padding-top: 0px; */
+    }
+    
+    .banner-lt{
+        width: 100%;
+    }
+    .banner-rt{
+        width: 100%;
+    }
+    .btn-primary{
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        border: none;
+        height: 54px;
+        width: 170px;
+        font-size: 18px;
+    }
+    .btn-secondery{
+        width: 170px;
+        margin-left: 20px;
+    }
+    .cart{
+        position: absolute;
+        top:250px;
+        right: 160px;
+    }
+    .cart-2{
+        position: absolute;
+        top:50px;
+        right: 5px;
+        width: 180px;
+        padding: 10px;
+    }
+  }
