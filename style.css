@@ -3,10 +3,12 @@ header{
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     padding: 0 15%;
-    /* border: 2px solid white; */
-    
-   
+    /* border: 2px solid white; */  
 }
+section{
+    margin-top: 170px;
+}
+
 .header-container{
     padding-top: 20px;
 }
@@ -103,4 +105,307 @@ header{
     background: rgb(230, 83, 60);
     border-radius: 50px;
     margin-right: 15px;
+}
+/* Header section end  */
+/* Habits section start  */
+
+
+.habits-up h1,p{
+    text-align: center;
+}
+.habits-down{
+    display: flex;
+    justify-content: space-between;
+}
+.habits-cart-img img{
+    border-radius: 50%;
+}
+.habits-cart{
+    /* border: 2px solid white; */
+    text-align: center;
+    width: 231px;
+}
+.habits-cart h1{
+    margin-bottom: 6px;
+}
+.habits-cart-img{
+    margin-top: 58px;
+    margin-bottom: 30px;
+}
+/* habits end  */
+/* run start  */
+
+.run-container{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px 32px 29px 54px;
+}
+.run-main{
+    display: flex;
+    justify-content: space-between;
+}
+.run-lt p{
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+.run-rt img{
+    border-radius: 18px;
+}
+/* run end  */
+/* bmi start  */
+.bmi-container{
+    display: flex;
+    justify-content: space-between;
+    background:rgb(34, 34, 34);
+    padding: 50px 15%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+.bmi-table{
+    width: 35%;
+}
+.bmi-calculator{
+    width: 50%;
+    /* border: 2px solid white; */
+}
+.bmi-table h1{
+    margin-bottom: 54px;
+    }
+.bmi-calculator p{
+    margin-bottom: 34px;
+    }
+.bmi-table table, th, td {
+    
+    border: 1px solid rgba(255, 255, 255, 0.319);   border-collapse: collapse;
+    padding: 20px;
+    }
+.table-full{
+    width: 350px;
+}
+
+.bmi-table td {
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+.bmi-table th {
+    
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.bmi-calculator h1{
+    margin-bottom: 14px;
+    }
+.bmi-calculator p{
+    text-align: left;
+}
+input ::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+}
+#input-1{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 282px;
+    height: 48px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+#input-2{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 589px;
+    height: 48px;
+    border: none;
+    margin-bottom: 34px;
+    padding-left: 20px;
+}
+#icon-1{
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    left: -30px;
+}
+#icon-2{
+    color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    left: -48px;
+    top: -57px;
+}
+/* bmi end  */
+/* team start  */
+.team-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.team-up{
+    text-align: center;
+}
+.team-up h1{
+    margin-bottom: 14px;
+}
+.team-up p{
+    margin-bottom: 58px;
+}
+.team-down{
+    width: 1010.01px;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-column-gap:10px ;
+    grid-row-gap: 10px;    
+    /* border: 2px solid white; */
+    
+}
+.team-cart{
+    border-radius: 18px;
+    width: 326.67px;
+    height: 272px;
+    /* border: 2px solid tomato; */
+    /* position: absolute; */
+    overflow: hidden;
+}
+.team-cart-image img{    
+    width: 100%;
+
+}
+
+.team-cart-title{
+    position: relative;
+    top: -80px;
+    right: -10px;
+}
+/* my idea start  */
+.my-idea-container{
+    width: 100%;
+    /* height: 600px; */
+    /* border: 2px solid white; */
+    background-image: url(./images/gym-2.jpg);
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding: 20px 15%;
+    /* filter: grayscale(70%); */
+    text-align: center;
+}
+.idea-down{
+    display: flex;
+    justify-content: space-between;
+}
+.my-idea-container h1{
+    text-shadow: 4px 4px #000000;
+}
+.idea-left{
+    background-color: #000000b0;
+    width: 45%;
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.idea-left h2{
+    margin-bottom: 30px;
+}
+.idea-right{
+    background-color: #000000c3;
+    width: 45%;
+    border-radius: 18px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.idea-right p{
+    margin-top: 20px;    
+    padding: 20px;
+}
+.idea-left input{
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.831);
+    width: 282px;
+    height: 48px;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    display: block;
+}
+
+
+/* footer start  */
+footer{
+    margin-top: 88px;
+    /* margin-bottom: 20px; */
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding: 0 15%;
+    padding-top: 60px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    margin-top: 20px;
+    text-align: left;
+}
+.footer-1{
+    width: 50%;
+}
+.footer-2{
+    width: 25%;
+}
+.footer-2{
+    list-style: none;
+    
+}
+.footer-2 a{
+    text-decoration: none;
+    
+}
+.footer-2 h1{
+    margin-bottom: 39px;
+    
+    
+}
+.footer-2 li{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;  
+    
+}
+.footer-down{
+    text-align: center;
+    border-top: 0.5px solid rgb(121, 120, 120);
+    padding: 30px;
 }

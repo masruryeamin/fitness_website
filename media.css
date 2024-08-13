@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .display-none{
         display: block;
     }
@@ -16,6 +16,9 @@
     #font-p{
         font-size: 16px;
     }
+    #font-t{
+        font-size: 32px;
+    }
     #miami{
         font-size: 55px;
     }
@@ -27,9 +30,12 @@
         margin: 0 auto;
         background: rgb(0, 0, 0);
     }
+    section{
+        margin-top: 80px;
+    }
     .banner-container{
         flex-direction: column;
-        /* padding-top: 0px; */
+        
     }
     
     .banner-lt{
@@ -62,4 +68,122 @@
         width: 180px;
         padding: 10px;
     }
+    /* Header section end  */
+    /* Habits start  */
+    .habits-down{
+        flex-direction: column;
+        align-items: center;
+    }
+    .habits-cart{
+        width: 231px;
+    }
+    /* habits end  */
+    /* run start  */
+    .run-container{        
+        padding: 30px;
+    }
+    .run-main{
+        flex-direction: column;
+        text-align: center;      
+    }
+    .run-lt h1{
+        text-align: left;      
+    }
+    .run-rt img{
+        margin-top: 30px;
+    }
+    /* run end  */
+    /* bmi start  */
+    .bmi-container{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;   
+    }
+    
+    .bmi-table{
+        width: 100%;
+    }
+    .bmi-calculator{
+        width: 100%;
+        /* border: 2px solid white; */
+        text-align: center;
+    }
+    .bmi-calculator h1{
+        margin-top: 30px;
+    }
+    .table-full{
+        width: 100%;
+    }
+    #input-1{
+        width: 40%;
+    }
+    #input-2{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 85%;
+        margin-left: 18px;
+    }
+    #icon-1{
+        color: rgba(255, 255, 255, 0.1);
+        position: relative;
+        left: -37px;
+    }
+    #icon-2{
+        color: rgba(255, 255, 255, 0.1);
+        position: relative;
+        left: 195px;
+        top: -124px;
+
   }
+  /* bmi end  */
+/* team start  */
+
+.team-up p{
+    margin-bottom: 58px;
+    width: 400px;
+}
+.team-down{
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);    
+    grid-row-gap: 30px;    
+    /* border: 2px solid white; */
+    
+}
+/* idea start  */
+.my-idea-container{
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.idea-down{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.idea-left{
+    width: 430px;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.idea-right{
+    width: 430px;
+}
+/* footer start  */
+.footer-container{
+    flex-direction: column;
+}
+.footer-1{
+    width: 100%;
+}
+.footer-2{
+    width: 100%;
+    margin-top: 30px;
+}
+
+}
