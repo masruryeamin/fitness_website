@@ -105,6 +105,10 @@ section{
     background: rgb(230, 83, 60);
     border-radius: 50px;
     margin-right: 15px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 /* Header section end  */
 /* Habits section start  */
